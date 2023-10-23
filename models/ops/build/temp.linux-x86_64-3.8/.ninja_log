@@ -1,0 +1,3 @@
+# ninja log v5
+1	3180	1640607872619998100	/mnt/wwn-0x50014eef01564214-part1/Deformable-DETR/models/ops/build/temp.linux-x86_64-3.8/mnt/wwn-0x50014eef01564214-part1/Deformable-DETR/models/ops/src/cpu/ms_deform_attn_cpu.o	9d714c29f8a7300a
+1	17122	1640607886550760400	/mnt/wwn-0x50014eef01564214-part1/Deformable-DETR/models/ops/build/temp.linux-x86_64-3.8/mnt/wwn-0x50014eef01564214-part1/Deformable-DETR/models/ops/src/vision.o	81da9f7ca23896
