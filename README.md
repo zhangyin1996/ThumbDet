@@ -3,9 +3,7 @@
 ## Abstract
 Computer vision fields have witnessed great success thanks to deep convolutional neural networks (CNNs). However, state-of-the-art methods often benefit from large models and datasets, which introduce heavy parameters and computational requirements. Deploying such large models in real-world applications is very difficult because of the limited computing resources. Although many researchers focus on designing efficient block structures to compress model parameters, they ignore that the role of large-scale input images is also an important factor for algorithm efficiency. Reducing input resolution is a useful method to boost runtime efficiency, however, traditional interpolation methods assume a fixed degradation criterion that greatly hurts performance. To solve the above problems, in this paper, we propose a novel framework named ThumbDet for reducing model computation while maintaining detection accuracy. In our framework, we first design an image down-sampling module to learn a small-scale image that looks realistic and contains discriminative properties. Furthermore, we propose a distillation-boost supervision strategy to maintain the detection performance of small-scaled images as the original-size inputs. Extensive experiments conducted on a standard object detection dataset MS COCO demonstrate the effectiveness of the proposed method when using very low-resolution images (i.e. 4x down-sampling) as inputs. In particular, ThumbDet achieves satisfactory detection performance (i.e. 32.3% in mAP) while drastically reducing computation and memory requirements (i.e. speed up of 1.26x), outperforming the traditional interpolation methods ( e.g. bicubic) by +3.2% absolutely in terms of mAP.
 
-<div align="center">
-  <img src="https://github.com/zhangyin1996/ThumbDet/blob/main/pipline.png">
-</div>
+![image text](https://github.com/zhangyin1996/ThumbDet/blob/main/pipline.png "Pipeline")
 
 ## 1. Preparation before you start
 ### a. Environment and detaset
